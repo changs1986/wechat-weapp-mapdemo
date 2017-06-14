@@ -1,9 +1,8 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/map/map",
+    "pages/map/map",    
     "pages/location/location",
-    "pages/logs/logs"
+    "pages/index/index"    
   ],
   "tabBar": {
     "color": "#dddddd",
@@ -11,11 +10,6 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
-      "text": "首页"
-    },{
       "pagePath": "pages/map/map",
       "iconPath": "image/map.png",
       "selectedIconPath": "image/map_active.png",
@@ -26,10 +20,10 @@
       "selectedIconPath": "image/locateHL.png",
       "text": "导航"
     },{
-      "pagePath": "pages/logs/logs",
+      "pagePath": "pages/index/index",
       "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechat.png",
-      "text": "其他项目"
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "首页"
     }]
   },
   "window":{

@@ -1,0 +1,4 @@
+let config = {
+  'amap_key': '你的key'
+}
+module.exports.Config=config;

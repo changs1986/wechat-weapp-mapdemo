@@ -1,1 +1,1 @@
-<map id="map"  scale="5" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 580px;"></map>
+<map id="map"  scale="{{map.scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{map.markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 580px;" longitude="{{map.lng}}" latitude="{{map.lat}}"  wx:if="{{map}}"></map>
